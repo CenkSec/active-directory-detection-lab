@@ -1,6 +1,6 @@
 # Active Directory Detection Engineering Lab
 
-The **blue-team counterpart** to my [Active Directory Attack & Defense Lab](https://github.com/CenkSec). I take the same attack chain that compromised `adlab.local` up to Domain Admin — then switch sides, re-run it under full logging, and **hunt it in the Windows event logs** with Sigma, Hayabusa, Chainsaw, and four detection rules I wrote myself.
+The **blue-team counterpart** to my [Active Directory Attack & Defense Lab](https://github.com/CenkSec/active-directory-attack-defense-lab). I take the same attack chain that compromised `adlab.local` up to Domain Admin — then switch sides, re-run it under full logging, and **hunt it in the Windows event logs** with Sigma, Hayabusa, Chainsaw, and four detection rules I wrote myself.
 
 > **Environment & authorisation.** All testing was performed against `adlab.local`, a self-built, **deliberately vulnerable** Active Directory domain on an **isolated virtual network** (VirtualBox internal network, no internet access), with Kali Linux as the attacker/analyst host. No real systems, accounts, or data are involved. Every credential and event shown exists only inside this lab.
 
